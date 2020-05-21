@@ -1,0 +1,55 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(https://i.pinimg.com/originals/24/2f/b6/242fb6516f662e168a1b764fefeb1fdb.jpg) no-repeat ;
+    background-size:cover;
+}
+.login-box
+{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    color: white;
+}
+.login-box h1
+{
+    
+    font-size: 40px;
+    border-bottom: 6px solid green;
+    margin-bottom: 20px;
+    padding: 13px 0px;
+}
+.textbox
+{
+    font-size:20px;
+    border-bottom: 1px solid green;
+    margin: 8px 0;
+    
+    overflow: hidden;
+}
+.textbox input
+{
+    border: none;
+    outline: none;
+    background: none;
+    width: 80px;
+    font-size: 18px;
+    float: left;
+    margin: 10px;
+    color: white;
+}
+.btn
+{
+    width: 100%;
+    background: none;
+    border:2px solid green;
+    padding: 5px;
+    color: white;
+    font-size: 18px; 
+    
+    
+}
